@@ -52,8 +52,9 @@ namespace AddressBookSystem1
                         newaddressbook.Deletecontact();
                         newaddressbook.Display();
                         break;
-                   
-                       
+                    case 5:
+                        flag = false;
+                        break;
                     default:
                         Console.WriteLine("Invalid Choice");
                         break;
