@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AddressBookSystem1
 {
-    public class AddressBook
+    public class CreateAddressBook
     {
         List<Contact> AddressList = new List<Contact>();
         public void AddContact(Contact newcontact)

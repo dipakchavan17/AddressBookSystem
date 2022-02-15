@@ -12,7 +12,7 @@ namespace AddressBookSystem1
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book Program");
-            AddressBook newaddressbook = new AddressBook();
+            CreateAddressBook newaddressbook = new CreateAddressBook();
             Contact newcontact = new Contact();
             bool flag = true;
             while (flag)
