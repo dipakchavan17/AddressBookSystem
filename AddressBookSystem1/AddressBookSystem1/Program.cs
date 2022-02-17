@@ -8,8 +8,8 @@ namespace AddressBookSystem1
 {
     public class Program
     {
-        //Main  Method / program Entry Point
-        static void Main(string[] args)
+        //main method
+       public  static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book Program");
            CreateAddressBook  newaddressbook = new CreateAddressBook();
